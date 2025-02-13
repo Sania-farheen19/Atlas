@@ -1,0 +1,39 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #0a0d12
+  
+  }
+  header{
+    box-shadow: 2px 2px 10px  #3f4b62;
+  }
+  .atlas{
+    box-shadow: 3px 3px 10px  #3f4b62;
+  }
+  .card{
+    box-shadow: inset 2px 2px 20px rgb(108, 108, 108) ;
+    
+  }
+  .card p{
+    color: rgb(235, 225, 220);
+  }
+
+  .card span{
+    color: rgb(255, 187, 150);
+    font-weight: bold;
+  }
+
+  .form-sec{
+    box-shadow:  2px 2px 20px rgb(54, 53, 53) ;
+    border-color: #3f4b62;
+    
+  }
